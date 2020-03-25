@@ -1,38 +1,47 @@
 <!-- Footer -->
-<footer> 
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <h3><i class="fa fa-external-link"></i> DSSAMA</h3>
+        <p><a href="/solutions.html">Các giải pháp</a></p>
+        <p><a href="https://aiacademy.vn/"> Chuyên gia tư vấn AI</a></p>
+        <p><a href="/platform.html"> Platform</a></p>
+
+      </div>
+      <div class="col-md-4">
+        <h3>Liên hệ:</h3>
         <p class="footer-contact">
-          {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Fax: {{ site.fax_number }} <br>
-          Email: {{ site.company_email }}<br>
+          <i class="fa fa-map-marker"></i> Trụ sợ tại Hà Nội: {{ site.address_line_hanoi }} <br>
+          <i class="fa fa-map-marker"></i> Văn phòng tại Tokyo: {{ site.address_line_tokyo }} <br>
+          <i class="fa fa-envelope-o"></i> Email: {{ site.company_email }}<br>
         </p>
       </div>
       <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="/about"> About ( Who we are )</a></p>
-        <p><a href="/about"> Services ( What we do )</a></p>
-        <p><a href="/contact"> Contact ( Feel free to contact )</a></p>
-        <p><a href="/blog"> Blog ( Write to us )</a></p>
-        <p><a href="/team"> Team ( Meet the Team )</a></p> 
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
-        <div id="social-icons">
+        <h3><i class="fa fa-facebook"></i> Facebook</h3>
+        <!-- <div id="social-icons">
           {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
+          <a href="{{ site.facebook_link }}" class="btn-group facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
           {% endif %}
+        </div> -->
+        <div style="height: 200px;">
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0"></script>
+          <div class="fb-page" data-href="https://www.facebook.com/dssama.vn/" data-tabs="timeline" data-width=""
+            data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/dssama.vn/" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/dssama.vn/">Dssama</a></blockquote>
+          </div>
         </div>
-      </div>    
+      </div>
     </div>
   </div>
 
   <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">DSSAMA 2019</a>. <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">DSSAMA 2019</a></p>
   </div>
 </footer>

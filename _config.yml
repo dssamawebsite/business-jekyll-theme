@@ -23,11 +23,9 @@ url: "https://dssamawebsite.github.io" # the base hostname & protocol for your s
 
 # Company Information
 company_name: DSSAMA
-address_line: 310 Hoang Quoc Viet, Cau Giay, Ha Noi
-telephone_number: 1.800.245.356
-fax_number: 1.800.245.357
-company_email: hello@LawOffice.org
-google_map: https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3618.727010735933!2d91.837871!3d24.907291700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1404919738144
+address_line_hanoi: 310 Hoang Quoc Viet, Cau Giay, Ha Noi
+address_line_tokyo: 〒101-0032 Japan, Tokyo, Chiyoda Ward, Iwamoto 3-10−7, Toujiki Bldg. 7F
+company_email: info@dssama.com
 
 # Social Link
 facebook_link: https://www.facebook.com/dssama.vn/
