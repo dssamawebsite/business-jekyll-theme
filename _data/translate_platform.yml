@@ -1,12 +1,53 @@
-HOME:
-  vi: "Trang chủ"
-  en: "Home"
-SOLUTIONS:
-  vi: "Giải pháp"
-  en: "Solutions"
-AI_EXPERTS:
-  vi: "Chuyên gia AI"
-  en: "AI Experts"
-PLATFORM:
-  vi: "Platform"
-  en: "Platform"
+PLATFORM_TITLE:
+  vi: "Về DSSAMA platform"
+  en: "About DSSAMA platform"
+
+PLATFORM_WHAT_IS:
+  vi: "DSSAMA platform là gì?"
+  en: "What is DSSAMA platform?"
+
+PLATFORM_WHAT_IS_CONTENT:
+  vi: "DSSAMA là một nền tảng phụ vụ cho việc quản trị và thực hiện các dự án về Big Data Analytics một cách liền mạch (seamless), minh bạch (transparent), và đầy đủ (full stack) kết nối các thành viên trong 01 dự án Big Data Analytics (tất cả cùng làm việc, cùng tương tác trên 01 platform). DSSAMA đang được phát triển bởi DSSAMA TEAM."
+  en:
+    "DSSAMA is an unified platform for managing and implementing Big Data Analytics projects in a seamless,
+    transparent, and full stack connecting players in one project. Big Data Analytics (all working together, interacting on one platform) is being developed by DSSAMA Team."
+
+BUTTON_NAVIGATE_DSSAMA_DASHBOARD_NAME:
+  vi: "Sử dụng DSSAMA miễn phí"
+  en: "Try DSSAMA for free"
+
+PLATFORM_WHY:
+  vi: "Lý do bạn nên chọn DSSAMA platform"
+  en: "Why choose DSSAMA platform"
+
+PLATFORM_WHY_1_TITLE:
+  vi: "Nhanh chóng"
+  en: "Agility"
+
+PLATFORM_WHY_1_CONTENT:
+  vi: "Cho phép thử nghiệm nhanh các giải pháp về AI, trực tiếp trên dữ liệu của bạn."
+  en: "This platform will help you find an AI solution on your data quickly. Many AI techniques have been installed and ready to use."
+
+PLATFORM_WHY_2_TITLE:
+  vi: "Trực quan"
+  en: "Visuality"
+
+PLATFORM_WHY_2_CONTENT:
+  vi: "Chỉ với các thao tác kết nối dữ liệu, lựa chọn các công cụ AI, bạn đã có thể đưa ra một giải pháp cho bài toán của mình."
+  en: "Just drag and drop, you can try as much as possible for your projects."
+
+PLATFORM_WHY_3_TITLE:
+  vi: "Cộng tác"
+  en: "Cooperability"
+
+PLATFORM_WHY_3_CONTENT:
+  vi: "Nền tảng hỗ trợ làm việc cộng tác trên môi trường điện toán đám mây, kết nối bạn tới các chuyên gia về AI giúp giải quyết bài toán của bạn."
+  en: "Your team can work together on your work space. We also connect you to AI experts, who can work directly with your project on cloud platform."
+
+PLATFORM_WHY_4_TITLE:
+  vi: "Bảo mật"
+  en: "Security"
+
+PLATFORM_WHY_4_CONTENT:
+  vi: "Bạn không cần phải đem dữ liệu ra khỏi tổ chức của mình, bạn vẫn có thể thực hiện dự án tại bất cứ đâu với sự hỗ trợ của bất cứ ai."
+  en: "Your data always is secured in your host."
