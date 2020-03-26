@@ -11,14 +11,35 @@
           <a href="/platform.html"> {{ site.data.translate_footer['AI_EXPERTS'][page.lang] }} </a>
         </p>
         <p><a href="/platform.html"> {{ site.data.translate_footer['PLATFORM'][page.lang] }} </a></p>
+        <p>
+          {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+          {% if posts.size == 0 %}
+          {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+          {% endif %}
+          {% for post in posts %}
+          <span>
+            {% if page.lang == post.lang %}
+            <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
+              <img class="active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px"
+                style="margin-right: 3px;">
+            </a>
+            {% else %}
+            <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
+              <img class="not-active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px"
+                style="margin-right: 3px;">
+            </a>
+            {% endif %}
+          </span>
+          {% endfor %}
+        </p>
 
       </div>
       <div class="col-md-4">
         <h3> {{ site.data.translate_footer['CONTACT'][page.lang] }}:</h3>
         <p class="footer-contact">
           <i class="fa fa-map-marker"></i> {{ site.data.translate_footer['HEAD_OFFICE'][page.lang] }} <br>
-          <i class="fa fa-map-marker"></i>  {{ site.data.translate_footer['TOKYO_OFFICE'][page.lang] }} <br>
-          <i class="fa fa-envelope-o"></i>  {{ site.data.translate_footer['EMAIL'][page.lang] }} <br>
+          <i class="fa fa-map-marker"></i> {{ site.data.translate_footer['TOKYO_OFFICE'][page.lang] }} <br>
+          <i class="fa fa-envelope-o"></i> {{ site.data.translate_footer['EMAIL'][page.lang] }} <br>
         </p>
       </div>
       <div class="col-md-4">

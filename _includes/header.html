@@ -27,21 +27,40 @@
         <li>
           <a href="/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
         </li>
-
-        {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-        {% if posts.size == 0 %}
-        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-        {% endif %}
-        {% for post in posts %}
-
         <li>
-          <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title=" View in
-            {{post.lang}}">{{ post.lang }}</a>
+          <div style="padding-top: 12px;">
+            {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+            {% if posts.size == 0 %}
+            {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+            {% endif %}
+            {% for post in posts %}
+            <span>
+              {% if page.lang == post.lang %}
+              <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
+                <img class = "active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px" style="margin-right: 3px;">
+              </a>
+              {% else %}
+              <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
+                <img class = "not-active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px" style="margin-right: 3px;">
+              </a>
+              {% endif %}
+            </span>
+            {% endfor %}
+          </div>
         </li>
-        {% endfor %}
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- End Header -->
+
+<style>
+  .active-language{
+    padding: 2px;
+    background-color: rgb(158, 233, 47);
+  }
+  .not-active-language{
+    padding: 7px;
+  }
+</style>
