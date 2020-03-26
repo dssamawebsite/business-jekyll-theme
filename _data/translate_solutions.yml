@@ -1,0 +1,57 @@
+SOLUTIONS:
+  vi: "Giải pháp"
+  en: "Solutions"
+
+SOLUTIONS_SOLOGAN:
+  vi: ""
+  en: "We provide industry solution to get value from your enterprise data"
+
+SOCIAL_NETWORK_ANALYSIS:
+  vi: ""
+  en: "Social Network Analysis"
+
+SOCIAL_NETWORK_ANALYSIS_CONTENT:
+  vi: ""
+  en: "We analyse social network data of million nodes for many
+    high-level applications such as enriching personal data, eliminating bots,
+    identifying influencers, relationship modeling, person data representation and classification.
+    The social network data is either investigated with graph theory and machine learning techniques
+    in order to extract meaningful information before feeding into on-top applications."
+
+HEALTHCARE_DATA_ANALYSIS:
+  vi: ""
+  en: "Healthcare Data Analysis"
+
+HEALTHCARE_DATA_ANALYSIS_CONTENT:
+  vi: ""
+  en: "Having requested from customers,
+    we analyse personal health care data to predict people with lifestyle related disease.
+    We solve issues of missing and imbalanced data, extract features using statistical methods and
+    train the system to predict some types of lifestyle related disease."
+
+REMOTE_SENSING_DATA_ANALYSIS:
+  vi: ""
+  en: "Remote Sensing Data Analysis"
+
+REMOTE_SENSING_DATA_ANALYSIS_CONTENT:
+  vi: ""
+  en:
+    "In remote sensing data analysis and computer vision, aerial image segmentation
+    is a crucial research topic, which has many applications in environmental and urban planning.
+    Recently, deep learning is using to tackle many computer vision problem, including aerial image
+    segmentation. Results have shown that deep learning gains much higher accuracy than other methods
+    on many benchmark data sets. In this work, we propose a neural network called NASNet-FCN,
+    which based on Fully Convolutional Network – a frame work for solving semantic segmentation
+    problem and image feature extractor derived from state-of-the-art object recognition network
+    called Neural Search Network Architecture."
+
+OIL DATA ANALYSIS:
+  vi: ""
+  en: "OIL Data Analysis"
+
+OIL DATA ANALYSIS_CONTENT:
+  vi: ""
+  en:
+    "We provide our customer solution to analyse well log data of the Mioxen object to
+    predict future industrial oil with the age of the below Mioxen.
+    This will help to  carry out the assessment of reserves and prepare the plan for future operation."

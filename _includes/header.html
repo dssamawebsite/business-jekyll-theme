@@ -1,33 +1,46 @@
 <!-- Header -->
 <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
   <div class="container">
-  
-  <div class="navbar-header">
-    <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+
+    <div class="navbar-header">
+      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button> -->
-    <a class="navbar-brand wow fadeInDownBig" href="index.html"><img class="office-logo" src="../assets/img/slider/dssama-logo-2.png" alt="Office" style="width: 307px; height: 50px;"></a>      
-  </div>
+      <a class="navbar-brand wow fadeInDownBig" href="index.html"><img class="office-logo"
+          src="../assets/img/slider/dssama-logo-2.png" alt="Office" style="width: 307px; height: 50px;"></a>
+    </div>
 
-  <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
-    <ul class="nav navbar-nav pull-right">
-      <li class="active">
-        <a href="/">Trang chủ</a>
-      </li>
-      <li>
-        <a href="/solutions.html">Giải pháp</a>
-      </li>
-      <li>
-        <a href="https://aiacademy.vn/">Chuyên gia AI</a>
-      </li>
-      <li>
-        <a href="/platform.html">Platform</a>
-      </li>
-    </ul>         
-  </div>
+    <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active">
+          <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="/solutions.html">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="https://aiacademy.vn/">{{ site.data.translate_header['AI_EXPERTS'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
+        </li>
+
+        {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+        {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+        {% endif %}
+        {% for post in posts %}
+
+        <li>
+          <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title=" View in
+            {{post.lang}}">{{ post.lang }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>
 

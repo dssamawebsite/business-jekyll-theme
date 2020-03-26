@@ -26,10 +26,11 @@
                             <img src=" ../assets/img/slider/slide1-dssama.jpg" width="100%" height="100%"
                             style="filter: brightness(50%);" alt="Dssama">
                             <div class="carousel-caption" style="margin-bottom: 200px;">
-                                <h3 class="carousel-title hidden-xs" style="font-size: 50px;">AI Powered Your Enterprise
+                                <h3 class="carousel-title hidden-xs" style="font-size: 50px;">
+                                    {{ site.data.translate_home['SOLOGAN_1'][page.lang] }}
                                 </h3>
-                                <p class="carousel-body" style="font-size: 20px;">We provide AI solutions to get values
-                                    from your data, connect you to AI experts and help you to create agile AI products
+                                <p class="carousel-body" style="font-size: 20px;">
+                                    {{ site.data.translate_home['SOLOGAN_2'][page.lang] }}
                                 </p>
                             </div>
                         </div>
@@ -75,7 +76,9 @@
         <div class="container">
             <div class="row">
                 <div class="services-header">
-                    <h3 class="services-header-title" style="font-size: 40px; font-weight: 600;">CÁC DỊCH VỤ</h3>
+                    <h3 class="services-header-title" style="font-size: 40px; font-weight: 600;">
+                        {{ site.data.translate_home['OUR_SERVICES'][page.lang] }}
+                    </h3>
                 </div>
             </div>
 
@@ -84,30 +87,38 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="services-group wow animated fadeInLeft" data-wow-offset="40" style="height: 270px;">
                         <p class="services-icon"><span class="fa fa-book fa-5x"></span></p>
-                        <h4 class="services-title">CÁC GIẢI PHÁP</h4>
-                        <p class="services-body">Chúng tôi cung cấp giải pháp ứng dụng trí tuệ nhân tạo để khai thác giá
-                            trị từ dữ liệu của khách hàng</p>
-                        <p class="services-more"><a href="/solutions.html">Đọc thêm</a></p>
+                        <h4 class="services-title">{{ site.data.translate_home['SOLUTIONS'][page.lang] }}</h4>
+                        <p class="services-body">
+                            {{ site.data.translate_home['SOLUTIONS_SUMMARY'][page.lang] }}
+                        </p>
+                        <p class="services-more">
+                            <a href="/solutions.html">{{ site.data.translate_home['READ_MORE'][page.lang] }}</a>
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="services-group wow animated zoomIn" data-wow-offset="40" style="height: 270px;">
                         <p class="services-icon"><i class="fa fa-users fa-5x"></i></p>
-                        <h4 class="services-title">CHUYÊN GIA TƯ VẤN AI</h4>
-                        <p class="services-body">Mạng lưới AI chuyên nghiệp của chúng tôi sẵn sàng giúp xây dựng các dự
-                            án AI của riêng bạn</p>
-                        <p class="services-more"><a href="https://aiacademy.vn/">Đọc thêm</a></p>
+                        <h4 class="services-title">{{ site.data.translate_home['AI_EXPERT_CONSULTANT'][page.lang] }}
+                        </h4>
+                        <p class="services-body">
+                            {{ site.data.translate_home['AI_EXPERT_CONSULTANT_SUMMARY'][page.lang] }}
+                        </p>
+                        <p class="services-more">
+                            <a href="https://aiacademy.vn/">{{ site.data.translate_home['READ_MORE'][page.lang] }}</a>
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="services-group wow animated fadeInRight" data-wow-offset="40" style="height: 270px;">
                         <p class="services-icon"><i class="fa fa-desktop fa-5x"></i></p>
-                        <h4 class="services-title">DSSAMA PLATFORM</h4>
-                        <p class="services-body">Nền tảng giúp triển khai nhanh các giải pháp AI trong doanh nghiệp của
-                            bạn</p>
-                        <p class="services-more"><a href="/platform.html">Đọc thêm</a></p>
+                        <h4 class="services-title">{{ site.data.translate_home['DSSAMA_PLATFORM'][page.lang] }}</h4>
+                        <p class="services-body">
+                            {{ site.data.translate_home['DSSAMA_PLATFORM_SUMMARY'][page.lang] }}
+                        </p>
+                        <p class="services-more"><a href="/platform.html">{{ site.data.translate_home['READ_MORE'][page.lang] }}</a></p>
                     </div>
                 </div>
             </div>
@@ -117,7 +128,9 @@
             <!-- Begin Services Row 2 -->
             <div class="row">
                 <div class="services-header">
-                    <h3 class="services-header-title" style="font-size: 40px; font-weight: 600;">ĐỐI TÁC CỦA CHÚNG TÔI</h3>
+                    <h3 class="services-header-title" style="font-size: 40px; font-weight: 600;">
+                        {{ site.data.translate_home['OUR_PARTNERS'][page.lang] }}
+                    </h3>
                 </div>
             </div>
             <div class="custom-row-align-content-center">
