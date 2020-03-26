@@ -1,12 +1,28 @@
-HOME:
-  vi: "Trang chủ"
-  en: "Home"
 SOLUTIONS:
   vi: "Giải pháp"
   en: "Solutions"
+
 AI_EXPERTS:
   vi: "Chuyên gia AI"
   en: "AI Experts"
+
 PLATFORM:
   vi: "Platform"
   en: "Platform"
+
+CONTACT:
+  vi: "Liên hệ"
+  en: "Contact"
+
+HEAD_OFFICE:
+  vi: "Trụ sở tại Hà Nội: 310 Hoàng Quốc Việt, Cầu Giấy, Hà Nội"
+  en: "Head Office: 310 Hoang Quoc Viet, Cau Giay, Ha Noi"
+
+TOKYO_OFFICE:
+  vi: "Văn phòng tại Tokyo: 〒101-0032 Japan, Tokyo, Chiyoda Ward, Iwamoto 3-10−7, Toujiki Bldg. 7F"
+  en: "Tokyo Office: 〒101-0032 Japan, Tokyo, Chiyoda Ward, Iwamoto 3-10−7, Toujiki Bldg. 7F"
+
+EMAIL:
+  vi: "Email: info@dssama.com"
+  en: "Email: info@dssama.com"
+

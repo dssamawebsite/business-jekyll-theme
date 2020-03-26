@@ -4,17 +4,21 @@
     <div class="row">
       <div class="col-md-4">
         <h3><img src="/assets/img/slider/dssama-logo-0.png" width="45px" height="45px"> DSSAMA</h3>
-        <p><a href="/solutions.html">Các giải pháp</a></p>
-        <p><a href="https://aiacademy.vn/"> Chuyên gia tư vấn AI</a></p>
-        <p><a href="/platform.html"> Platform</a></p>
+        <p>
+          <a href="/solutions.html"> {{ site.data.translate_footer['SOLUTIONS'][page.lang] }} </a>
+        </p>
+        <p>
+          <a href="/platform.html"> {{ site.data.translate_footer['AI_EXPERTS'][page.lang] }} </a>
+        </p>
+        <p><a href="/platform.html"> {{ site.data.translate_footer['PLATFORM'][page.lang] }} </a></p>
 
       </div>
       <div class="col-md-4">
-        <h3>Liên hệ:</h3>
+        <h3> {{ site.data.translate_footer['CONTACT'][page.lang] }}:</h3>
         <p class="footer-contact">
-          <i class="fa fa-map-marker"></i> Trụ sợ tại Hà Nội: {{ site.address_line_hanoi }} <br>
-          <i class="fa fa-map-marker"></i> Văn phòng tại Tokyo: {{ site.address_line_tokyo }} <br>
-          <i class="fa fa-envelope-o"></i> Email: {{ site.company_email }}<br>
+          <i class="fa fa-map-marker"></i> {{ site.data.translate_footer['HEAD_OFFICE'][page.lang] }} <br>
+          <i class="fa fa-map-marker"></i>  {{ site.data.translate_footer['TOKYO_OFFICE'][page.lang] }} <br>
+          <i class="fa fa-envelope-o"></i>  {{ site.data.translate_footer['EMAIL'][page.lang] }} <br>
         </p>
       </div>
       <div class="col-md-4">
