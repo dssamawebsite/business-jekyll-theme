@@ -3,7 +3,7 @@ SOLUTIONS_TITLE:
   en: "Solutions"
 
 SOLUTIONS_SOLOGAN:
-  vi: "Chúng tôi cung cấp giải pháp công nghiệp để nhận giá trị từ dữ liệu doanh nghiệp của bạn"
+  vi: "Chúng tôi cung cấp các giải pháp công nghiệp để nhận giá trị từ dữ liệu doanh nghiệp của bạn"
   en: "We provide industry solution to get value from your enterprise data"
 
 SOCIAL_NETWORK_ANALYSIS:
@@ -12,9 +12,8 @@ SOCIAL_NETWORK_ANALYSIS:
 
 SOCIAL_NETWORK_ANALYSIS_CONTENT:
   vi: "Chúng tôi phân tích dữ liệu mạng xã hội của hàng triệu nút cho nhiều người các ứng dụng cấp cao như
-   làm phong phú dữ liệu cá nhân, loại bỏ bot, xác định người có ảnh hưởng, mô hình hóa mối quan hệ, biểu diễn và phân loại dữ liệu cá nhân.
-     Dữ liệu mạng xã hội được nghiên cứu với lý thuyết đồ thị và kỹ thuật học máy
-     để trích xuất thông tin có ý nghĩa trước khi đưa vào các ứng dụng hàng đầu."
+    làm phong phú dữ liệu cá nhân, loại bỏ bot, xác định người có ảnh hưởng, mô hình hóa mối quan hệ, biểu diễn và phân loại dữ liệu cá nhân.
+    Dữ liệu mạng xã hội được nghiên cứu với lý thuyết đồ thị và kỹ thuật học máy để trích xuất thông tin có ý nghĩa trước khi đưa vào các top ứng dụng "
   en: "We analyse social network data of million nodes for many
     high-level applications such as enriching personal data, eliminating bots,
     identifying influencers, relationship modeling, person data representation and classification.
@@ -26,10 +25,9 @@ HEALTHCARE_DATA_ANALYSIS:
   en: "Healthcare Data Analysis"
 
 HEALTHCARE_DATA_ANALYSIS_CONTENT:
-  vi: "Có yêu cầu từ khách hàng,
-     chúng tôi phân tích dữ liệu chăm sóc sức khỏe cá nhân để dự đoán những người mắc bệnh liên quan đến lối sống.
-     Chúng tôi giải quyết các vấn đề về dữ liệu bị thiếu và mất cân bằng, trích xuất các tính năng bằng phương pháp thống kê và
-     đào tạo hệ thống để dự đoán một số loại bệnh liên quan đến lối sống."
+  vi: "Có yêu cầu từ khách hàng, chúng tôi phân tích dữ liệu chăm sóc sức khỏe cá nhân để dự đoán những người mắc bệnh liên quan đến lối sống.
+  Chúng tôi giải quyết các vấn đề về dữ liệu bị thiếu và mất cân bằng, trích xuất các tính năng bằng phương pháp thống kê và 
+  đào tạo hệ thống để dự đoán một số loại bệnh liên quan đến lối sống."
   en: "Having requested from customers,
     we analyse personal health care data to predict people with lifestyle related disease.
     We solve issues of missing and imbalanced data, extract features using statistical methods and
@@ -40,14 +38,14 @@ REMOTE_SENSING_DATA_ANALYSIS:
   en: "Remote Sensing Data Analysis"
 
 REMOTE_SENSING_DATA_ANALYSIS_CONTENT:
-  vi: "Trong phân tích dữ liệu viễn thám và thị giác máy tính, phân đoạn hình ảnh trên không
-     là một chủ đề nghiên cứu quan trọng, có nhiều ứng dụng trong quy hoạch môi trường và đô thị.
-     Gần đây, học sâu đang sử dụng để giải quyết nhiều vấn đề về thị giác máy tính, bao gồm cả hình ảnh trên không
-     phân khúc. Kết quả đã chỉ ra rằng học sâu đạt được độ chính xác cao hơn nhiều so với các phương pháp khác
-     trên nhiều bộ dữ liệu điểm chuẩn. Trong công việc này, chúng tôi đề xuất một mạng lưới thần kinh được gọi là NASNet-FCN,
-     dựa trên Mạng kết hợp hoàn toàn - một khung làm việc để giải quyết phân đoạn ngữ nghĩa
-     trình trích xuất tính năng hình ảnh và sự cố xuất phát từ mạng nhận dạng đối tượng hiện đại
-     được gọi là Kiến trúc mạng tìm kiếm thần kinh."
+  vi: "Trong phân tích dữ liệu viễn thám và thị giác máy tính, phân đoạn hình ảnh trên không 
+    là một chủ đề nghiên cứu quan trọng, có nhiều ứng dụng trong quy hoạch môi trường và đô thị. 
+    Gần đây, học sâu đang sử dụng để giải quyết nhiều vấn đề về thị giác máy tính, bao gồm cả hình ảnh trên không 
+    phân khúc. Kết quả đã chỉ ra rằng học sâu đạt được độ chính xác cao hơn nhiều so với các phương pháp khác 
+    trên nhiều bộ dữ liệu điểm chuẩn. Trong công việc này, chúng tôi đề xuất một mạng lưới thần kinh được gọi là NASNet-FCN, 
+    dựa trên Mạng kết hợp hoàn toàn - một khung làm việc để giải quyết phân đoạn ngữ nghĩa 
+    trình trích xuất tính năng hình ảnh và sự cố xuất phát từ mạng nhận dạng đối tượng hiện đại 
+    được gọi là Kiến trúc mạng tìm kiếm thần kinh."
   en:
     "In remote sensing data analysis and computer vision, aerial image segmentation
     is a crucial research topic, which has many applications in environmental and urban planning.
@@ -63,9 +61,9 @@ OIL_DATA_ANALYSIS:
   en: "OIL Data Analysis"
 
 OIL_DATA_ANALYSIS_CONTENT:
-  vi: "Chúng tôi cung cấp giải pháp khách hàng của mình để phân tích tốt dữ liệu nhật ký của đối tượng Mioxen để
-     dự đoán dầu công nghiệp trong tương lai với tuổi của Mioxen dưới đây.
-     Điều này sẽ giúp thực hiện đánh giá dự trữ và chuẩn bị kế hoạch cho hoạt động trong tương lai."
+  vi: "Chúng tôi cung cấp giải pháp khách hàng của mình để phân tích tốt dữ liệu nhật ký của đối tượng Mioxen giúp
+  dự đoán dầu công nghiệp trong tương lai với tuổi của Mioxen dưới đây. 
+  Điều này sẽ giúp thực hiện đánh giá dự trữ và chuẩn bị kế hoạch cho hoạt động trong tương lai."
   en:
     "We provide our customer solution to analyse well log data of the Mioxen object to
     predict future industrial oil with the age of the below Mioxen.
