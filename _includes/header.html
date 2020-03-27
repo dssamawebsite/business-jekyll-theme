@@ -15,6 +15,7 @@
 
     <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav pull-right">
+        <!-- Nếu ngôn ngữ là tiếng việt thì không cần hiển thị '.../vi/...' -->
         {% if page.lang == "vi" %}
         <li class="active">
           <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
