@@ -3,24 +3,24 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <h3><img src="/assets/img/slider/dssama-logo-0.png" width="45px" height="45px"> DSSAMA</h3>
-        <p>
+        <h3><img src="/assets/img/slider/dssama-logo-square.png" width="35px" height="35px"> DSSAMA</h3>
+        <p><icon class="fa fa-home icon-page"></icon>
           <a
             href="{{ site.data.links['HOME_PAGE'][page.lang] }}">{{ site.data.translate_header['HOME'][page.lang] }}</a>
         </p>
-        <p>
+        <p><icon class="fa fa-book icon-page"></icon>
           <a
             href="{{ site.data.links['SOLUTIONS_PAGE'][page.lang] }}">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
         </p>
-        <p>
+        <p><icon class="fa fa-users icon-page"></icon>
           <a href="https://aiacademy.vn/">{{ site.data.translate_header['AI_EXPERTS'][page.lang] }}</a>
         </p>
-        <p>
+        <p><icon class="fa fa-desktop icon-page"></icon>
           <a
             href="{{ site.data.links['PLATFORM_PAGE'][page.lang] }}">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
         </p>
 
-        <p>
+        <p><icon class="fa fa-language icon-page"></icon>
           {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
           {% if posts.size == 0 %}
           {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
@@ -72,3 +72,9 @@
     <p>&copy;  {{ site.data.translate_footer['COPYRIGHT'][page.lang] }} </p>
   </div>
 </footer>
+
+<style>
+  .icon-page{
+    color: white;
+  }
+</style>
