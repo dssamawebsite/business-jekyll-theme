@@ -4,40 +4,22 @@
     <div class="row">
       <div class="col-md-4">
         <h3><img src="/assets/img/slider/dssama-logo-0.png" width="45px" height="45px"> DSSAMA</h3>
-        {% if page.lang == "vi" %}
         <p>
-          <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
+          <a
+            href="{{ site.data.links['HOME_PAGE'][page.lang] }}">{{ site.data.translate_header['HOME'][page.lang] }}</a>
         </p>
         <p>
-          <a href="/solutions.html">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
-        </p>
-        <p>
-          <a href="https://aiacademy.vn/">{{ site.data.translate_header['AI_EXPERTS'][page.lang] }}</a>
-        </p>
-        <p>
-          <a href="/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
-        </p>
-        {% else %}
-        <p>
-          <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
-        </p>
-        <p>
-          <a href="/{{page.lang}}/solutions.html">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
+          <a
+            href="{{ site.data.links['SOLUTIONS_PAGE'][page.lang] }}">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
         </p>
         <p>
           <a href="https://aiacademy.vn/">{{ site.data.translate_header['AI_EXPERTS'][page.lang] }}</a>
         </p>
         <p>
-          <a href="/{{page.lang}}/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
+          <a
+            href="{{ site.data.links['PLATFORM_PAGE'][page.lang] }}">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
         </p>
-        {% endif %}
-        <!-- <p>
-          <a href="/solutions.html"> {{ site.data.translate_footer['SOLUTIONS'][page.lang] }} </a>
-        </p>
-        <p>
-          <a href="/platform.html"> {{ site.data.translate_footer['AI_EXPERTS'][page.lang] }} </a>
-        </p>
-        <p><a href="/platform.html"> {{ site.data.translate_footer['PLATFORM'][page.lang] }} </a></p> -->
+
         <p>
           {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
           {% if posts.size == 0 %}
@@ -71,13 +53,6 @@
       </div>
       <div class="col-md-4">
         <h3><i class="fa fa-facebook"></i> Facebook</h3>
-        <!-- <div id="social-icons">
-          {% if site.facebook_link %}
-          <a href="{{ site.facebook_link }}" class="btn-group facebook">
-            <i class="fa fa-facebook"></i>
-          </a>
-          {% endif %}
-        </div> -->
         <div style="height: 200px;">
           <div id="fb-root"></div>
           <script async defer crossorigin="anonymous"

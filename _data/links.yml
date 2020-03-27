@@ -1,0 +1,11 @@
+HOME_PAGE:
+  vi: "/"
+  en: "/en/"
+
+SOLUTIONS_PAGE:
+  vi: "/solutions"
+  en: "/en/solutions"
+
+PLATFORM_PAGE:
+  vi: "/platform"
+  en: "/en/platform"
