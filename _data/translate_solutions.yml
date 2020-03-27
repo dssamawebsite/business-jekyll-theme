@@ -45,11 +45,11 @@ REMOTE_SENSING_DATA_ANALYSIS_CONTENT:
     problem and image feature extractor derived from state-of-the-art object recognition network
     called Neural Search Network Architecture."
 
-OIL DATA ANALYSIS:
+OIL_DATA_ANALYSIS:
   vi: ""
   en: "OIL Data Analysis"
 
-OIL DATA ANALYSIS_CONTENT:
+OIL_DATA_ANALYSIS_CONTENT:
   vi: ""
   en:
     "We provide our customer solution to analyse well log data of the Mioxen object to
