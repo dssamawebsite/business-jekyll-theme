@@ -15,6 +15,7 @@
 
     <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav pull-right">
+        {% if page.lang == "vi" %}
         <li class="active">
           <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
         </li>
@@ -27,6 +28,21 @@
         <li>
           <a href="/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
         </li>
+        {% else %}
+        <li class="active">
+          <a href="/">{{ site.data.translate_header['HOME'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="/{{page.lang}}/solutions.html">{{ site.data.translate_header['SOLUTIONS'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="https://aiacademy.vn/">{{ site.data.translate_header['AI_EXPERTS'][page.lang] }}</a>
+        </li>
+        <li>
+          <a href="/{{page.lang}}/platform.html">{{ site.data.translate_header['PLATFORM'][page.lang] }}</a>
+        </li>
+        {% endif %}
+
         <li>
           <div style="padding-top: 12px;">
             {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
@@ -37,11 +53,13 @@
             <span>
               {% if page.lang == post.lang %}
               <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
-                <img class = "active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px" style="margin-right: 3px;">
+                <img class="active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px"
+                  style="margin-right: 3px;">
               </a>
               {% else %}
               <a href="{{ site.base-url }}{{ post.url }}" title="{{ site.data.languages[post.lang].label }}">
-                <img class = "not-active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px" style="margin-right: 3px;">
+                <img class="not-active-language" src="/assets/img/slider/{{ post.lang }}.png" width="38px" height="28px"
+                  style="margin-right: 3px;">
               </a>
               {% endif %}
             </span>
@@ -56,11 +74,12 @@
 <!-- End Header -->
 
 <style>
-  .active-language{
+  .active-language {
     padding: 2px;
     background-color: rgb(158, 233, 47);
   }
-  .not-active-language{
+
+  .not-active-language {
     padding: 7px;
   }
 </style>
