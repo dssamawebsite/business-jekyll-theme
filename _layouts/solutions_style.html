@@ -18,10 +18,13 @@
     <div class="content-page-container">
 
       <div class="row-solution-container">
-        <h3 class="solution-title">{{ site.data.translate_solutions['SOCIAL_NETWORK_ANALYSIS'][page.lang] }}</h3>
+        <div>
+          <h3 class="solution-title">{{ site.data.translate_solutions['SOCIAL_NETWORK_ANALYSIS'][page.lang] }}</h3>
+        </div>
+
         <div class="text-image-container">
           <div class="left">
-            <img src="/assets/img/solutions/solutions-1.jpg">
+            <img class="cover" src="/assets/img/solutions/solutions-1.jpg">
           </div>
           <div class="text-container right">
             <p>
@@ -35,7 +38,7 @@
         <h3 class="solution-title">{{ site.data.translate_solutions['HEALTHCARE_DATA_ANALYSIS'][page.lang] }}</h3>
         <div class="text-image-container">
           <div class="left">
-            <img src="/assets/img/solutions/solutions-2.jpg">
+            <img class="cover" src="/assets/img/solutions/solutions-2.jpg">
           </div>
           <div class="text-container right">
             <p>
@@ -45,7 +48,7 @@
         </div>
       </div>
 
-      <div style="height: 250px;">
+      <div class="row-solution-container">
         <h3 class="solution-title">{{ site.data.translate_solutions['REMOTE_SENSING_DATA_ANALYSIS'][page.lang] }}</h3>
         <div style="margin: 30px 0px;">
           <div class="text-container">
@@ -59,7 +62,7 @@
         <h3 class="solution-title">{{ site.data.translate_solutions['OIL_DATA_ANALYSIS'][page.lang] }}</h3>
         <div class="text-image-container">
           <div class="left">
-            <img src="/assets/img/solutions/solutions-3.jpg">
+            <img class="cover" src="/assets/img/solutions/solutions-3.jpg">
           </div>
           <div class="text-container right">
             <p>
@@ -79,13 +82,14 @@
     }
 
     .row-solution-container {
-      margin: 10px 0px;
       clear: both;
-      height: 300px;
+      height: auto;
+      margin-bottom: 50px;
     }
 
     .text-image-container {
       margin: 30px 0px;
+      overflow: hidden;
     }
 
     .text-container {
@@ -106,6 +110,11 @@
 
     .solution-title {
       font-weight: 600;
+    }
+
+    .cover {
+      width: 100%;
+      height: 100%;
     }
   </style>
 </body>
