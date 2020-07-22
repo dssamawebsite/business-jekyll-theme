@@ -76,8 +76,15 @@
     }
 
     .content-page-container {
-      margin-left: 100px;
-      margin-right: 100px;
+      @media screen and (min-width: 769px) {
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      @media screen and (max-width: 768px) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
   </style>
 </body>
