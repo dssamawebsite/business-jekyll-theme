@@ -19,8 +19,12 @@ HEAD_OFFICE:
   en: "Head Office: 310 Hoang Quoc Viet, Cau Giay, Ha Noi"
 
 TOKYO_OFFICE:
-  vi: "Văn phòng tại Tokyo: 〒101-0032 Japan, Tokyo, Chiyoda Ward, Iwamoto 3-10−7, Toujiki Bldg. 7F"
-  en: "Tokyo Office: 〒101-0032 Japan, Tokyo, Chiyoda Ward, Iwamoto 3-10−7, Toujiki Bldg. 7F"
+  vi: "Văn phòng tại Tokyo: 〒160-8336, Japan, Tokyo, Shinjuku City, Nishishinjuku, 3 Chome 2-9"
+  en: "Tokyo Office: 〒160-8336, Japan, Tokyo, Shinjuku City, Nishishinjuku, 3 Chome 2-9"
+
+PHONE_NUMBER:
+  vi: "Số điện thoại: +81-80-5897-9942"
+  en: "Phone number: +81-80-5897-9942"
 
 EMAIL:
   vi: "Email: info@dssama.com"
