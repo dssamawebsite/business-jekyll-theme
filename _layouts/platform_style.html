@@ -8,7 +8,7 @@
 <body>
   <!-- Main Container -->
   <div id="banners"></div>
-  <div class="container" style="background-color: white;">
+  <div class="container page-content">
     <div class="services-header" style="width: 50%; margin: auto; text-align: center;">
       <h3 style="font-weight: 600; font-size: 40px;">{{ site.data.translate_platform['PLATFORM_TITLE'][page.lang] }}
       </h3>
@@ -64,6 +64,11 @@
   <!--End Main Container -->
 
   <style>
+    .page-content {
+      background-color: white;
+      padding: 0 10%;
+    }
+
     .text-container {
       text-align: justify;
       text-justify: inter-word;

@@ -8,8 +8,8 @@
 <body>
   <!-- Main Container -->
   <div id="banners"></div>
-  <div class="container" style="background-color: white;">
-    <div class="services-header" style="width: 50%; margin: auto; text-align: center;">
+  <div class="container page-content">
+    <div class="services-header" style="width: 70%; margin: auto; text-align: center;">
       <h3 style="font-weight: 600; font-size: 40px;">{{ site.data.translate_solutions['SOLUTIONS_TITLE'][page.lang] }}
       </h3>
       <h3>{{ site.data.translate_solutions['SOLUTIONS_SOLOGAN'][page.lang] }}</h3>
@@ -76,6 +76,11 @@
   <!--End Main Container -->
 
   <style>
+    .page-content {
+      background-color: white;
+      padding: 0 10%;
+    }
+
     .content-page-container {
       @media screen and (min-width: 769px) {
         margin-left: 100px;
